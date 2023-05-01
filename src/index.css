@@ -1,13 +1,179 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --fs-55: 55px;
+  --fs-45: 45px;
+  --fs-35: 35px;
+  --fs-27: 27px;
+  --fs-22: 22px;
+  --fs-20: 20px;
+  --fs-18: 18px;
+  --fs-16: 16px;
+  --fs-14: 14px;
+
+
+  --color-clr_dark_blue: #000958;
+  --color-clr_white: #FFFFFF;
+  --color-bg_orange: #FF5B2E;
+  --color-clr_black: #292525;
+  --color-clr_light_grey: #89847F;
+  --color-clr_grey: #656689;
+  --color-bg_skey: #01BCB1;
+  --color-bg_dark_y: #FB901B;
+  --color-bg_sken: #FFE4C8;
+  --color-bg_section: #FFF4EA;
+  --color-bg_section_1: #FFFAF5;
+  --color-clr_nav: #5E6085;
+  --color-clr_blog: #B2B2C4;
+
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.clr_dark_blue {
+  color: var(--color-clr_dark_blue) !important;
+}
+
+.clr_white {
+  color: var(--color-clr_white) !important;
+}
+
+.bg_orange {
+  background-color: var(--color-bg_orange) !important;
+}
+
+.clr_black {
+  color: var(--color-clr_light_blue) !important;
+}
+
+.clr_light_grey {
+  color: var(--color-clr_light_grey) !important;
+}
+
+.clr_grey {
+  color: var(--color-clr_grey) !important;
+}
+
+.bg_skey {
+  background-color: var(--color-bg_skey) !important;
+}
+
+.bg_dark_y {
+  background-color: var(--color-bg_dark_y);
+}
+
+.bg_sken {
+  background-color: var(--color-bg_sken);
+}
+
+.bg_section {
+  background-color: var(--color-bg_section);
+}
+
+.bg_section_1 {
+  background-color: var(--color-bg_section_1);
+}
+
+.clr_nav {
+  color: var(--color-clr_footer) !important;
+}
+
+.clr_blog {
+  color: var(--color-clr_blog) !important;
+}
+
+
+
+/* font_size */
+
+
+
+.fs_55 {
+  font-size: var(--fs-55);
+}
+
+.fs_45 {
+  font-size: var(--fs-45);
+}
+
+.fs_35 {
+  font-size: var(--fs-35);
+}
+
+.fs_27 {
+  font-size: var(--fs-27);
+}
+
+.fs_22 {
+  font-size: var(--fs-22);
+}
+
+.fs_20 {
+  font-size: var(--fs-20);
+}
+
+.fs_18 {
+  font-size: var(--fs-18);
+}
+
+.fs_16 {
+  font-size: var(--fs-16);
+}
+
+.fs_14 {
+  font-size: var(--fs-14);
+}
+
+
+/* font-weight */
+.fw_400 {
+  font-weight: 400;
+}
+
+.fw_500 {
+  font-weight: 500;
+}
+
+.fw_600 {
+  font-weight: 600;
+}
+
+/* font-family*/
+.ff_Slackey {
+  font-family: 'Slackey', sans-serif;
+}
+
+.ff_Poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+@media (min-width:768px) {
+
+  :root {
+    --fs-55: 55px;
+    --fs-45: 45px;
+    --fs-35: 35px;
+    --fs-27: 27px;
+    --fs-22: 22px;
+    --fs-20: 20px;
+    --fs-18: 18px;
+    --fs-16: 16px;
+    --fs-14: 14px;
+  }
+}
+
+@media (min-width:992px) {
+
+  :root {
+    --fs-55: 55px;
+    --fs-45: 45px;
+    --fs-35: 35px;
+    --fs-27: 27px;
+    --fs-22: 22px;
+    --fs-20: 20px;
+    --fs-18: 18px;
+    --fs-16: 16px;
+    --fs-14: 14px;
+  }
 }
