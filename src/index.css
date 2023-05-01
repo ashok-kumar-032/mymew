@@ -16,6 +16,7 @@
   --color-clr_dark_blue: #000958;
   --color-clr_white: #FFFFFF;
   --color-bg_orange: #FF5B2E;
+  --color-clr_orange: #FF5B2E;
   --color-clr_black: #292525;
   --color-clr_light_grey: #89847F;
   --color-clr_grey: #656689;
@@ -40,6 +41,9 @@
 
 .bg_orange {
   background-color: var(--color-bg_orange) !important;
+}
+.clr_orange {
+ color: var(--color-clr_orange) !important;
 }
 
 .clr_black {
@@ -75,7 +79,7 @@
 }
 
 .clr_nav {
-  color: var(--color-clr_footer) !important;
+  color: var(--color-clr_nav) !important;
 }
 
 .clr_blog {
@@ -140,7 +144,7 @@
 
 /* font-family*/
 .ff_Slackey {
-  font-family: 'Slackey', sans-serif;
+  font-family: 'Slackey', sans-serif !important;
 }
 
 .ff_Poppins {
