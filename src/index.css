@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
 :root {
-  --fs-55: 55px;
-  --fs-45: 45px;
+  --fs-55: 40px;
+  --fs-45: 37px;
   --fs-35: 35px;
   --fs-27: 27px;
   --fs-22: 22px;
@@ -42,8 +42,9 @@
 .bg_orange {
   background-color: var(--color-bg_orange) !important;
 }
+
 .clr_orange {
- color: var(--color-clr_orange) !important;
+  color: var(--color-clr_orange) !important;
 }
 
 .clr_black {
@@ -155,7 +156,7 @@
 @media (min-width:768px) {
 
   :root {
-    --fs-55: 55px;
+    --fs-55: 50px;
     --fs-45: 45px;
     --fs-35: 35px;
     --fs-27: 27px;
