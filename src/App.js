@@ -7,6 +7,7 @@ import Let from './Components/Let';
 import Dog from './Components/Dog';
 import { Groomers } from './Components/Groomers';
 import { Adopted } from './Components/Adopted';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       <TopScrool />
       <Let />
       <Dog />
-      <Groomers/>
+      <Groomers />
+      <Footer />
     </div>
   );
 }

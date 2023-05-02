@@ -27,7 +27,7 @@ const Mynav = () => {
         <Container className=''>
           <div className='d-flex justify-content-between align-items-center'>
             <div className='d-flex align-items-center'>
-              <a className='clr_black fw_400 fs_27 ff_Slackey ms-2 z-10 navlogo effect' href="#">Mew</a>
+              <a className='clr_black fw_400 fs_27 ff_Slackey ms-2 z-10 navlogo effect_1' href="#">Mew</a>
             </div>
             <ul className={first ? 'nav_show d-flex gap-4 align-items-center 0' : 'nav_show d-flex showw gap-4 mb-0 align-items-center ps-0'} >
               <li><a className='fw_400 fs_16 ff_Poppins clr_nav mb-0 ms-xl-4 home effect' href="#">Home</a>

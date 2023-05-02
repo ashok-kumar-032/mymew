@@ -16,7 +16,7 @@ const Let = () => {
                                 <p className=' mb-0 fw_500 fs_18 ff_Poppins clr_grey ms-2'>Vaccination Service </p>
                             </div>
                             <div className=' d-flex align-items-center ms-sm-5'>
-                                <input type="checkbox" className='lage_box' />
+                                <input type="checkbox" defaultChecked='checked' className='lage_box' />
                                 <p className=' mb-0 fw_500 fs_18 ff_Poppins clr_grey ms-2'>Vaccination Service </p>
                             </div></div>
                         <p className='mt-4 pt-3 fw_400 fs_16 ff_Poppins clr_grey text-center text-lg-start'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  velit esse cillum dolore eu fugiat nulla pariatur.</p>

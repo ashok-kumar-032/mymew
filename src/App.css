@@ -24,11 +24,16 @@
 }
 
 .effect {
+  transition: 0.2s ease-in-out;
+}
+
+.effect_1 {
   transition: 0.6s ease-in-out;
 }
 
 .home:hover {
   color: #000958 !important;
+
 }
 
 /* hero */
@@ -86,9 +91,480 @@ input.lage_box {
 }
 
 /* dog */
-.dog{
+.dog {
   border-radius: 500px;
 }
+
+.border_dog {
+  outline: 5px solid #FFEFDE !important;
+  outline-offset: 40px;
+}
+
+.max_w_240 {
+  max-width: 240px;
+}
+
+/* footer */
+.max_w_440 {
+  max-width: 390px;
+}
+
+.hover_up {
+  width: 41px !important;
+  height: 41px !important;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  display: block;
+}
+
+.hover_up:hover {
+  transform: translateY(-10%) !important;
+
+}
+
+.hover_up:hover svg path {
+  fill: #313EF7;
+
+}
+
+@media (min-width:1400px) {
+  .bol_r_1::before {
+    content: '';
+    position: absolute;
+    left: -60px;
+    height: 35px !important;
+    width: 35px !important;
+    top: 120px;
+    border-radius: 50px;
+    border: 5px solid #FFEFDE !important;
+    background: linear-gradient(145.61deg, rgba(255, 96, 49, 0.6) 15.14%, rgba(249, 168, 14, 0.6) 93.39%) !important;
+
+  }
+
+  .bol_r_1::after {
+    content: '';
+    position: absolute;
+    right: -60px;
+    height: 35px !important;
+    width: 35px !important;
+    top: 120px;
+    border-radius: 50px;
+    border: 5px solid #FFEFDE !important;
+    background: linear-gradient(145.61deg, rgba(255, 96, 49, 0.6) 15.14%, rgba(249, 168, 14, 0.6) 93.39%) !important;
+
+  }
+
+  .bol_l_1::after {
+    content: '';
+    position: absolute;
+    right: -60px;
+    height: 35px !important;
+    width: 35px !important;
+    bottom: 110px;
+    border-radius: 50px;
+    border: 5px solid #FFEFDE !important;
+    background: linear-gradient(145.61deg, rgba(255, 96, 49, 0.6) 15.14%, rgba(249, 168, 14, 0.6) 93.39%) !important;
+
+  }
+
+  .bol_l_1::before {
+    content: '';
+    position: absolute;
+    left: -60px;
+    height: 35px !important;
+    width: 35px !important;
+    bottom: 110px;
+    border-radius: 50px;
+    border: 5px solid #FFEFDE !important;
+    background: linear-gradient(145.61deg, rgba(255, 96, 49, 0.6) 15.14%, rgba(249, 168, 14, 0.6) 93.39%) !important;
+
+  }
+
+  .line_r_1::after {
+    content: '';
+    position: absolute;
+    left: -490px;
+    height: 35px !important;
+    width: 434px !important;
+    bottom: 125px;
+    border-bottom: 5px solid #FFEFDE;
+    z-index: 1;
+  }
+
+  .line_r_1::before {
+    content: '';
+    position: absolute;
+    right: -490px;
+    height: 35px !important;
+    width: 434px !important;
+    bottom: 125px;
+    border-bottom: 5px solid #FFEFDE;
+    z-index: 1;
+  }
+
+  .line_l_1::before {
+    content: '';
+    position: absolute;
+    right: -490px;
+    height: 35px !important;
+    width: 434px !important;
+    top: 105px;
+    border-bottom: 5px solid #FFEFDE;
+    z-index: 1;
+  }
+
+  .line_l_1::after {
+    content: '';
+    position: absolute;
+    left: -490px;
+    height: 35px !important;
+    width: 434px !important;
+    top: 105px;
+    border-bottom: 5px solid #FFEFDE;
+    z-index: 1;
+  }
+
+  .feed {
+    content: '';
+    position: absolute;
+    top: -13px !important;
+    left: -490px;
+    z-index: 10 !important;
+  }
+
+  .Health {
+    content: '';
+    position: absolute;
+    bottom: 210px !important;
+    left: -490px;
+    z-index: 10 !important;
+  }
+
+  .Vaccination {
+    content: '';
+    position: absolute;
+    bottom: -50px !important;
+    left: -490px;
+    z-index: 10 !important;
+  }
+
+  .Overnight {
+    content: '';
+    position: absolute;
+    top: -13px !important;
+    right: -490px;
+    z-index: 10 !important;
+  }
+
+  .Medical {
+    content: '';
+    position: absolute;
+    bottom: 210px !important;
+    right: -490px;
+    z-index: 10 !important;
+  }
+
+  .Traning {
+    content: '';
+    position: absolute;
+    bottom: -50px !important;
+    right: -490px;
+    z-index: 10 !important;
+  }
+}
+
+@media (max-width:1400px) {
+  .bol_r_1::before {
+    content: '';
+    position: absolute;
+    left: -60px;
+    height: 35px !important;
+    width: 35px !important;
+    top: 120px;
+    border-radius: 50px;
+    border: 5px solid #FFEFDE !important;
+    background: linear-gradient(145.61deg, rgba(255, 96, 49, 0.6) 15.14%, rgba(249, 168, 14, 0.6) 93.39%) !important;
+
+  }
+
+  .bol_r_1::after {
+    content: '';
+    position: absolute;
+    right: -60px;
+    height: 35px !important;
+    width: 35px !important;
+    top: 120px;
+    border-radius: 50px;
+    border: 5px solid #FFEFDE !important;
+    background: linear-gradient(145.61deg, rgba(255, 96, 49, 0.6) 15.14%, rgba(249, 168, 14, 0.6) 93.39%) !important;
+
+  }
+
+  .bol_l_1::after {
+    content: '';
+    position: absolute;
+    right: -60px;
+    height: 35px !important;
+    width: 35px !important;
+    bottom: 110px;
+    border-radius: 50px;
+    border: 5px solid #FFEFDE !important;
+    background: linear-gradient(145.61deg, rgba(255, 96, 49, 0.6) 15.14%, rgba(249, 168, 14, 0.6) 93.39%) !important;
+
+  }
+
+  .bol_l_1::before {
+    content: '';
+    position: absolute;
+    left: -60px;
+    height: 35px !important;
+    width: 35px !important;
+    bottom: 110px;
+    border-radius: 50px;
+    border: 5px solid #FFEFDE !important;
+    background: linear-gradient(145.61deg, rgba(255, 96, 49, 0.6) 15.14%, rgba(249, 168, 14, 0.6) 93.39%) !important;
+
+  }
+
+  .line_r_1::after {
+    content: '';
+    position: absolute;
+    left: -410px;
+    height: 35px !important;
+    width:350px !important;
+    bottom: 125px;
+    border-bottom: 5px solid #FFEFDE;
+    z-index: 1;
+  }
+
+  .line_r_1::before {
+    content: '';
+    position: absolute;
+    right: -410px;
+    height: 35px !important;
+    width: 350px !important;
+    bottom: 125px;
+    border-bottom: 5px solid #FFEFDE;
+    z-index: 1;
+  }
+
+  .line_l_1::before {
+    content: '';
+    position: absolute;
+    right: -410px;
+    height: 35px !important;
+    width: 350px !important;
+    top: 105px;
+    border-bottom: 5px solid #FFEFDE;
+    z-index: 1;
+  }
+
+  .line_l_1::after {
+    content: '';
+    position: absolute;
+    left: -410px;
+    height: 35px !important;
+    width: 350px !important;
+    top: 105px;
+    border-bottom: 5px solid #FFEFDE;
+    z-index: 1;
+  }
+
+  .feed {
+    content: '';
+    position: absolute;
+    top: -13px !important;
+    left: -410px;
+    z-index: 10 !important;
+  }
+
+  .Health {
+    content: '';
+    position: absolute;
+    bottom: 210px !important;
+    left: -410px;
+    z-index: 10 !important;
+  }
+
+  .Vaccination {
+    content: '';
+    position: absolute;
+    bottom: -50px !important;
+    left: -410px;
+    z-index: 10 !important;
+  }
+
+  .Overnight {
+    content: '';
+    position: absolute;
+    top: -13px !important;
+    right: -410px;
+    z-index: 10 !important;
+  }
+
+  .Medical {
+    content: '';
+    position: absolute;
+    bottom: 210px !important;
+    right: -410px;
+    z-index: 10 !important;
+  }
+
+  .Traning {
+    content: '';
+    position: absolute;
+    bottom: -50px !important;
+    right: -410px;
+    z-index: 10 !important;
+  }
+}
+
+@media (max-width:1200px) {
+  .bol_r_1::before {
+    content: '';
+    position: absolute;
+    left: -60px;
+    height: 35px !important;
+    width: 35px !important;
+    top: 120px;
+    border-radius: 50px;
+    border: 5px solid #FFEFDE !important;
+    background: linear-gradient(145.61deg, rgba(255, 96, 49, 0.6) 15.14%, rgba(249, 168, 14, 0.6) 93.39%) !important;
+
+  }
+
+  .bol_r_1::after {
+    content: '';
+    position: absolute;
+    right: -60px;
+    height: 35px !important;
+    width: 35px !important;
+    top: 120px;
+    border-radius: 50px;
+    border: 5px solid #FFEFDE !important;
+    background: linear-gradient(145.61deg, rgba(255, 96, 49, 0.6) 15.14%, rgba(249, 168, 14, 0.6) 93.39%) !important;
+
+  }
+
+  .bol_l_1::after {
+    content: '';
+    position: absolute;
+    right: -60px;
+    height: 35px !important;
+    width: 35px !important;
+    bottom: 110px;
+    border-radius: 50px;
+    border: 5px solid #FFEFDE !important;
+    background: linear-gradient(145.61deg, rgba(255, 96, 49, 0.6) 15.14%, rgba(249, 168, 14, 0.6) 93.39%) !important;
+
+  }
+
+  .bol_l_1::before {
+    content: '';
+    position: absolute;
+    left: -60px;
+    height: 35px !important;
+    width: 35px !important;
+    bottom: 110px;
+    border-radius: 50px;
+    border: 5px solid #FFEFDE !important;
+    background: linear-gradient(145.61deg, rgba(255, 96, 49, 0.6) 15.14%, rgba(249, 168, 14, 0.6) 93.39%) !important;
+
+  }
+
+  .line_r_1::after {
+    content: '';
+    position: absolute;
+    left: -410px;
+    height: 35px !important;
+    width:350px !important;
+    bottom: 125px;
+    border-bottom: 5px solid #FFEFDE;
+    z-index: 1;
+  }
+
+  .line_r_1::before {
+    content: '';
+    position: absolute;
+    right: -410px;
+    height: 35px !important;
+    width: 350px !important;
+    bottom: 125px;
+    border-bottom: 5px solid #FFEFDE;
+    z-index: 1;
+  }
+
+  .line_l_1::before {
+    content: '';
+    position: absolute;
+    right: -410px;
+    height: 35px !important;
+    width: 350px !important;
+    top: 105px;
+    border-bottom: 5px solid #FFEFDE;
+    z-index: 1;
+  }
+
+  .line_l_1::after {
+    content: '';
+    position: absolute;
+    left: -410px;
+    height: 35px !important;
+    width: 350px !important;
+    top: 105px;
+    border-bottom: 5px solid #FFEFDE;
+    z-index: 1;
+  }
+
+  .feed {
+    content: '';
+    position: absolute;
+    top: -13px !important;
+    left: -410px;
+    z-index: 10 !important;
+  }
+
+  .Health {
+    content: '';
+    position: absolute;
+    bottom: 210px !important;
+    left: -410px;
+    z-index: 10 !important;
+  }
+
+  .Vaccination {
+    content: '';
+    position: absolute;
+    bottom: -50px !important;
+    left: -410px;
+    z-index: 10 !important;
+  }
+
+  .Overnight {
+    content: '';
+    position: absolute;
+    top: -13px !important;
+    right: -410px;
+    z-index: 10 !important;
+  }
+
+  .Medical {
+    content: '';
+    position: absolute;
+    bottom: 210px !important;
+    right: -410px;
+    z-index: 10 !important;
+  }
+
+  .Traning {
+    content: '';
+    position: absolute;
+    bottom: -50px !important;
+    right: -410px;
+    z-index: 10 !important;
+  }
+}
+
 
 @media (min-width:1200px) {
   .W_min {
@@ -174,6 +650,7 @@ input.lage_box {
     margin-top: 380px !important;
 
   }
+
   to {
     transform: rotate(360deg);
   }
