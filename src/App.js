@@ -13,7 +13,6 @@ function App() {
     <div className="App">
       <Mynav />
       <Adopted />
-      <Groomers />
       <TopScrool />
       <Let />
       <Dog />
