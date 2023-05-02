@@ -7,6 +7,7 @@ import Let from './Components/Let';
 import Dog from './Components/Dog';
 import { Groomers } from './Components/Groomers';
 import { Adopted } from './Components/Adopted';
+import { Ourservice } from './Components/Ourservice';
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
       <Adopted />
       <TopScrool />
       <Let />
+      <Ourservice />
       <Dog />
-      <Groomers/>
+      <Groomers />
     </div>
   );
 }
