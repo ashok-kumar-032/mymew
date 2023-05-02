@@ -5,6 +5,7 @@ import Mynav from './Components/Mynav';
 import { TopScrool } from './Components/TopScrool';
 import Let from './Components/Let';
 import Dog from './Components/Dog';
+import { Groomers } from './Components/Groomers';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <TopScrool />
       <Let />
       <Dog />
+      <Groomers/>
     </div>
   );
 }

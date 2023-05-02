@@ -174,4 +174,43 @@ input.lage_box {
     margin-top: 380px !important;
 
   }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img_box {
+  border-radius: 23px;
+  Width: 280px;
+  Height: 268px;
+}
+.our_img{
+  background: #FFF4EA;
+    border-radius: 107px;
+    z-index: 1;
+    margin-bottom: -140px;
+    border: 10px solid #FFF4EA;
 }
