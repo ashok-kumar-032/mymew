@@ -68,6 +68,12 @@ const Mynav = () => {
                   <img className=' mt-4 mt-sm-0 img_3 img_0' src={img_3} alt="" />
                   <img className=' mt-4 mt-sm-0 img_4 img_0' src={img_4} alt="" />
                   <img className=' mt-4 mt-sm-0 img_5 img_0' src={img_5} alt="" /></span>
+                <a className='fw_600 fs_16 ff_Poppins clr_white bg_orange effect Contact_btn d-inline-block' href="#">Contact us</a>
+                <span> <img className='ms-sm-5 ps-sm-3 mt-4 mt-sm-0 z_1' src={img_1} alt="" />
+                  <img className=' mt-4 mt-sm-0 img_2' src={img_2} alt="" />
+                  <img className=' mt-4 mt-sm-0 img_3' src={img_3} alt="" />
+                  <img className=' mt-4 mt-sm-0 img_4' src={img_4} alt="" />
+                  <img className=' mt-4 mt-sm-0 img_5' src={img_5} alt="" /></span>
                 {/* ring */}
                 <img src={ring} className='rotate_animation position-absolute ring' />
               </div>

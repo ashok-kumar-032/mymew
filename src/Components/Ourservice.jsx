@@ -56,7 +56,7 @@ export const Ourservice = () => {
                     </Col>
                 </Row>
                 <div className='ps-md-5 ms-md-5 clr_show align-items-center d-flex justify-content-center'>
-                    <a href="#" className='learn_butn effect_arrow ff_Poppins fw_600 fs_16 clr_white text-center'>Learn More</a>
+                    <a href="#" className='learn_butn effect ff_Poppins fw_600 fs_16 clr_white text-center'>Learn More</a>
                     <span><img src={arrow} className='colr_arrow effect_arrow d-none d-sm-block' alt="" /></span>
                     <span><img src={arrow} className='arrow_clr d-none d-sm-block' alt="" /></span>
                 </div>
