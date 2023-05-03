@@ -9,14 +9,15 @@
 }
 
 /* loading */
-.loading {  
+.loading {
   z-index: 20;
   height: 100%;
   width: 100%;
   position: fixed;
 
 }
-.cat{
+
+.cat {
   height: 150px;
 }
 
@@ -1253,6 +1254,7 @@ input.lage_box {
     top: 190px;
   }
 }
+
 @media (max-width:576px) {
 
   .ring {
@@ -1306,13 +1308,24 @@ input.lage_box {
   }
 }
 
-
-
-
 .loading {
-  z-index: 99;  
+  z-index: 99;
 }
+.rotate_animation{
+  animation: rotatee 3s ease-in-out infinite alternate;
+}
+@keyframes rotatee {
+  0%{
+    transform: rotate(360deg);
+  }
+  50%{
+    transform: rotate(0deg);
+  }
 
+  100%{
+    transform: rotate(360deg);
+  }
+}
 .preloaderAnimation {
   animation: preloaderimg 1s linear infinite alternate;
 }
@@ -1327,4 +1340,10 @@ input.lage_box {
     transform: scale(1.5);
 
   }
+}
+.grow_up{
+    animation: preloaderimg 1s linear infinite alternate;
+}
+.slow_animation{
+  transition: all 0.4s linear;
 }

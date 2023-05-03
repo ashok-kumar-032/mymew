@@ -58,7 +58,7 @@ const Mynav = () => {
             <Col xl={7} className='px-lg-5 mt_max p-sm-4 position-relative d-flex flex-column align-items-center align-items-xl-start'>
               {/* star img */}
 
-              <p className='fw_400 fs_55 ff_Slackey clr_dark_blue position-relative text-center text-xl-start'>We take care of your pet and help them to grow <span><img src={emogy} alt="" /><img src={star} className=' position-absolute star_hero' />
+              <p className='fw_400 fs_55 ff_Slackey clr_dark_blue position-relative text-center text-xl-start'>We take care of your pet and help them to grow <span><img className='grow_up' src={emogy} alt="" /><img src={star} className='rotate_animation position-absolute star_hero' />
               </span></p>
               <p className='fw_500 fs_16 ff_Poppins clr_grey pt-4 max_w_480 text-center text-xl-start'>Best pets are waiting for adoption. Find out the the perfect one you will like it. It’s our promise.</p>
               <div className=' d-flex position-relative mt-5 flex-column flex-sm-row align-items-center'>
@@ -69,7 +69,7 @@ const Mynav = () => {
                   <img className=' mt-4 mt-sm-0 img_4' src={img_4} alt="" />
                   <img className=' mt-4 mt-sm-0 img_5' src={img_5} alt="" /></span>
                 {/* ring */}
-                <img src={ring} className=' position-absolute ring' />
+                <img src={ring} className='rotate_animation position-absolute ring' />
               </div>
               <div className=' d-flex align-items-start mt-5'>
                 <img className='ms-0' src={dog_l} alt="" />
