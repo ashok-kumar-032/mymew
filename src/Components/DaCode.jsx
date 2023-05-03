@@ -3,6 +3,7 @@ import Slider from "react-slick";
 
 import { Container, Row, Col } from 'react-bootstrap'
 import dog from "../assets/hair_dog.png"
+
 export const DaCode = () => {
     const first = useRef()
     var dogslick = {
