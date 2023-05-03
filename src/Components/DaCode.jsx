@@ -17,10 +17,10 @@ export const DaCode = () => {
                     <Col xl={6} xs={12} className='p-0'>
                         <div className=' dog_box p-4'>
                             <Row className=' h-100'>
-                                <Col xs={6} className='dog_box_slider d-flex align-items-center'>
+                                <Col xs={12} sm={6} className='dog_box_slider d-flex align-items-center'>
                                     <img src={dog} className=' w-100 h-75' />
                                 </Col>
-                                <Col xs={6}>
+                                <Col xs={12} sm={6}>
                                     <div className='ps-3'>
                                         <p className=' ff_Poppins fw_600 fs_20 clr_black mb-0'>Why Your SaaS Business should use WordPress</p>
                                         <p className=' ff_Poppins pt-3 fw_400 fs_16 clr_grey'>A content management system like WordPress can help you build a highly engaging website for your SaaS business, with little to no effort</p>

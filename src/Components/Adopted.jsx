@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import image from '../assets/adopt_img.png'
 export const Adopted = () => {
     return (
-        <div className=' bg_section py-sm-5'>
+        <div className=' bg_section_1 py-sm-5'>
             <Container>
                 <div className=' adopt_box w-100'>
                     <Row className=' align-items-center flex-lg-row flex-column-reverse'>
