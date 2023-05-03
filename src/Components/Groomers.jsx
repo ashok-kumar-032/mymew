@@ -6,6 +6,8 @@ import our_1 from "../assets/our_1.png"
 import our_2 from "../assets/our_2.png"
 import our_3 from "../assets/our_3.png"
 import our_4 from "../assets/our_4.png"
+import groo_1 from "../assets/groo_1.svg"
+import groo_2 from "../assets/groo_2.svg"
 export const Groomers = () => {
   var settings = {
     dots: false,
@@ -15,7 +17,7 @@ export const Groomers = () => {
     slidesToShow: 4,
     slidesToScroll: 1, responsive: [{
 
-      breakpoint: 1200,
+      breakpoint: 1400,
       settings: {
         slidesToShow: 3,
         infinite: true,
@@ -46,7 +48,11 @@ export const Groomers = () => {
     }]
   };
   return (
-    <section className='bg_section py-5'>
+    <section className='bg_section py-5 position-relative'>
+      <span>
+        <img className=' position-absolute groo_1 zig_position' src={groo_1} alt="" />
+        <img className=' position-absolute groo_2' src={groo_2} alt="" />
+      </span>
       <Container className='py-4'>
         <div className=' d-flex align-items-center justify-content-center'>
           <p className='fw_400 fs_45 ff_Slackey clr_dark_blue text-center'>Our Groomers</p>

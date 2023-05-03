@@ -14,6 +14,7 @@ import Loading from './Components/Loading';
 import Footer from './Components/Footer';
 import { DaCode } from './Components/DaCode';
 
+
 function App() {
   return (
     <div className="App">
@@ -25,8 +26,9 @@ function App() {
       <Ourservice />
       <Dog />
       <Groomers />
-      <Footer />
       <DaCode />
+      <Footer />
+
     </div>
   );
 }
