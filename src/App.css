@@ -7,9 +7,11 @@
   scroll-behavior: smooth !important;
 
 }
-.row{
+
+.row {
   display: flex !important;
 }
+
 /* loading */
 .loading {
   z-index: 20;
@@ -22,6 +24,7 @@
 .cat {
   height: 150px;
 }
+
 /* .slick-active {
   display: flex !important;
 } */
@@ -82,6 +85,12 @@
   padding: 17px 30px;
 }
 
+.Contact_btn:hover {
+  background: #FFFFFF !important;
+  color: #FF5B2E !important;
+  outline: 3px solid #FF5B2E !important;
+}
+
 .max_w_480 {
   max-width: 480px;
 }
@@ -113,6 +122,12 @@
   border-radius: 10px;
   padding: 15px 30px !important;
 
+}
+
+.Book_btn:hover {
+  background: #FFFFFF !important;
+  color: #FF5B2E !important;
+  outline: 3px solid #FF5B2E;
 }
 
 .Call {
@@ -1200,6 +1215,15 @@ input.lage_box {
   padding: 22px 33px;
 }
 
+.learn_butn:hover {
+  background: #FFFFFF;
+  box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
+  border-radius: 10px;
+  padding: 22px 33px;
+  color: #FF5B2E !important;
+  outline: 3px solid #FF5B2E;
+}
+
 .effect_arrow {
   transition: all 1s ease-in-out;
 }
@@ -1315,21 +1339,25 @@ input.lage_box {
 .loading {
   z-index: 99;
 }
-.rotate_animation{
+
+.rotate_animation {
   animation: rotatee 3s ease-in-out infinite alternate;
 }
+
 @keyframes rotatee {
-  0%{
+  0% {
     transform: rotate(360deg);
   }
-  50%{
+
+  50% {
     transform: rotate(0deg);
   }
 
-  100%{
+  100% {
     transform: rotate(360deg);
   }
 }
+
 .preloaderAnimation {
   animation: preloaderimg 1s linear infinite alternate;
 }
@@ -1345,9 +1373,11 @@ input.lage_box {
 
   }
 }
-.grow_up{
-    animation: preloaderimg 1s linear infinite alternate;
+
+.grow_up {
+  animation: preloaderimg 1s linear infinite alternate;
 }
-.slow_animation{
+
+.slow_animation {
   transition: all 0.4s linear;
 }

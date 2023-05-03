@@ -22,7 +22,7 @@ export const DaCode = () => {
                         <div>
                             <p className=' ff_Slackey fw_400 fs_45 clr_black mb-0'>DaCode Blog</p>
                             <p className=' ff_Poppins pt-4 fw_400 mx_363 fs_16 clr_grey mb-0'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                            <a href="#" className='learn_butn d-inline-block ff_Poppins mt-5 fw_600 fs_16 clr_white text-center'>Learn More</a>
+                            <a href="#" className='learn_butn d-inline-block ff_Poppins mt-5 fw_600 fs_16 clr_white text-center effect'>Learn More</a>
 
                         </div>
                     </Col>
