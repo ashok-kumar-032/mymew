@@ -17,7 +17,7 @@ const Dog = () => {
                     </Col>
                 </Row>
                 <div className=' d-flex align-items-center  justify-content-center py-5'>
-                    <div className='position-relative'><img className='dog border_dog  w-100' src={dog} alt="" />
+                    <div className='position-relative'><img className='dog border_dog  w_100 mt_50' src={dog} alt="" />
                         <span className='bol_r_1'></span>
                         <span className='bol_l_1'></span>
                         <span className='line_r_1'></span>
