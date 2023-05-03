@@ -8,6 +8,7 @@ import Dog from './Components/Dog';
 import { Groomers } from './Components/Groomers';
 import { Adopted } from './Components/Adopted';
 import { Ourservice } from './Components/Ourservice';
+import { DaCode } from './Components/DaCode';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Ourservice />
       <Dog />
       <Groomers />
+      <DaCode />
     </div>
   );
 }
