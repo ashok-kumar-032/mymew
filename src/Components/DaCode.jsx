@@ -19,14 +19,14 @@ export const DaCode = () => {
             <Container className='py-lg-5'>
                 <Row>
                     <Col xl={6} xs={12}>
-                        <div>
+                        <div className=' d-flex flex-column align-items-center align-items-xl-start'>
                             <p className=' ff_Slackey fw_400 fs_45 clr_black mb-0'>DaCode Blog</p>
                             <p className=' ff_Poppins pt-4 fw_400 mx_363 fs_16 clr_grey mb-0'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  velit esse cillum dolore eu fugiat nulla pariatur.</p>
                             <a href="#" className='learn_butn d-inline-block ff_Poppins mt-5 fw_600 fs_16 clr_white text-center'>Learn More</a>
 
                         </div>
                     </Col>
-                    <Col xl={6} xs={12} className='p-0'>
+                    <Col xl={6} xs={12} className='p-0 mt-4 mt-xl-0'>
                         <div className=' dog_box p-4'>
 
                             <Slider {...dogslick} ref={first}>

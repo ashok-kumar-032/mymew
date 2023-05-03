@@ -7,9 +7,11 @@
   scroll-behavior: smooth !important;
 
 }
-.row{
+
+.row {
   display: flex !important;
 }
+
 /* loading */
 .loading {
   z-index: 20;
@@ -22,6 +24,7 @@
 .cat {
   height: 150px;
 }
+
 /* .slick-active {
   display: flex !important;
 } */
@@ -99,6 +102,10 @@
 .img_4 {
   z-index: 4;
   margin-left: -15px;
+}
+
+.img_0:hover {
+transform: scale(1.01);
 }
 
 .img_5 {
@@ -1315,21 +1322,25 @@ input.lage_box {
 .loading {
   z-index: 99;
 }
-.rotate_animation{
+
+.rotate_animation {
   animation: rotatee 3s ease-in-out infinite alternate;
 }
+
 @keyframes rotatee {
-  0%{
+  0% {
     transform: rotate(360deg);
   }
-  50%{
+
+  50% {
     transform: rotate(0deg);
   }
 
-  100%{
+  100% {
     transform: rotate(360deg);
   }
 }
+
 .preloaderAnimation {
   animation: preloaderimg 1s linear infinite alternate;
 }
@@ -1345,9 +1356,11 @@ input.lage_box {
 
   }
 }
-.grow_up{
-    animation: preloaderimg 1s linear infinite alternate;
+
+.grow_up {
+  animation: preloaderimg 1s linear infinite alternate;
 }
-.slow_animation{
+
+.slow_animation {
   transition: all 0.4s linear;
 }

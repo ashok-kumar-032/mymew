@@ -63,11 +63,11 @@ const Mynav = () => {
               <p className='fw_500 fs_16 ff_Poppins clr_grey pt-4 max_w_480 text-center text-xl-start'>Best pets are waiting for adoption. Find out the the perfect one you will like it. It’s our promise.</p>
               <div className=' d-flex position-relative mt-5 flex-column flex-sm-row align-items-center'>
                 <a className='fw_600 fs_16 ff_Poppins clr_white bg_orange Contact_btn d-inline-block' href="#">Contact us</a>
-                <span> <img className='ms-sm-5 ps-sm-3 mt-4 mt-sm-0 z_1' src={img_1} alt="" />
-                  <img className=' mt-4 mt-sm-0 img_2' src={img_2} alt="" />
-                  <img className=' mt-4 mt-sm-0 img_3' src={img_3} alt="" />
-                  <img className=' mt-4 mt-sm-0 img_4' src={img_4} alt="" />
-                  <img className=' mt-4 mt-sm-0 img_5' src={img_5} alt="" /></span>
+                <span> <img className='ms-sm-5 ps-sm-3 mt-4 mt-sm-0 z_1 img_0' src={img_1} alt="" />
+                  <img className=' mt-4 mt-sm-0 img_2 img_0' src={img_2} alt="" />
+                  <img className=' mt-4 mt-sm-0 img_3 img_0' src={img_3} alt="" />
+                  <img className=' mt-4 mt-sm-0 img_4 img_0' src={img_4} alt="" />
+                  <img className=' mt-4 mt-sm-0 img_5 img_0' src={img_5} alt="" /></span>
                 {/* ring */}
                 <img src={ring} className='rotate_animation position-absolute ring' />
               </div>
