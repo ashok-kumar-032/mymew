@@ -111,7 +111,7 @@
 }
 
 .img_0:hover {
-transform: scale(1.01);
+  transform: scale(1.01);
 }
 
 .img_5 {
@@ -178,7 +178,7 @@ input.lage_box {
 }
 
 .hover_up:hover svg path {
-  fill: #313EF7;
+  fill: #FF5B2E;
 
 }
 

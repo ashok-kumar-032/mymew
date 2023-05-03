@@ -92,7 +92,7 @@ export const Groomers = () => {
           </div>
         </Slider>
         <div className=' d-flex align-items-center justify-content-center mt-4'>
-          <a href="#" className='learn_butn effect ff_Poppins mt-5 fw_600 fs_16 clr_white text-center'>Learn More</a>
+          <a href="#" className='learn_butn effect ff_Poppins mt-5 fw_600 fs_16 clr_white text-center effect_1'>Learn More</a>
         </div>
       </Container>
     </section>
