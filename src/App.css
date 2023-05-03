@@ -7,7 +7,9 @@
   scroll-behavior: smooth !important;
 
 }
-
+.row{
+  display: flex !important;
+}
 /* loading */
 .loading {
   z-index: 20;
@@ -20,7 +22,9 @@
 .cat {
   height: 150px;
 }
-
+/* .slick-active {
+  display: flex !important;
+} */
 /* top */
 .top {
   -webkit-animation: star 2.8s linear infinite;
