@@ -24,10 +24,10 @@ const Mynav = () => {
   return (
     <header className=' d-flex flex-column min-vh-100 bg_section_1'>
       <Nav className='py-4'>
-        <Container className=''>
+        <Container>
           <div className='d-flex justify-content-between align-items-center'>
             <div className='d-flex align-items-center'>
-              <a className='clr_black fw_400 fs_27 ff_Slackey ms-2 z-10 navlogo effect' href="#">Mew</a>
+              <a className='clr_black fw_400 fs_27 ff_Slackey ms-2 z-10 navlogo effect_1' href="#">Mew</a>
             </div>
             <ul className={first ? 'nav_show d-flex gap-4 align-items-center 0' : 'nav_show d-flex showw gap-4 mb-0 align-items-center ps-0'} >
               <li><a className='fw_400 fs_16 ff_Poppins clr_nav mb-0 ms-xl-4 home effect' href="#">Home</a>
@@ -48,12 +48,12 @@ const Mynav = () => {
         </Container >
       </Nav>
       <section className=' d-flex flex-column justify-content-center flex-grow-1 pb-5'>
-        <Container className='pb-5'>
+        <Container className='pb-sm-5'>
           <Row>
             <Col xl={5}>
               <img className='W_min position-absolute start-0' src={hero} alt="" />
             </Col>
-            <Col xl={7} className='px-5 mt_max p-4 d-flex flex-column align-items-center align-items-xl-start'>
+            <Col xl={7} className='px-lg-5 mt_max p-sm-4 d-flex flex-column align-items-center align-items-xl-start'>
               <p className='fw_400 fs_55 ff_Slackey clr_dark_blue text-center text-xl-start'>We take care of your pet and help them to grow <span><img src={emogy} alt="" /></span></p>
               <p className='fw_500 fs_16 ff_Poppins clr_grey pt-4 max_w_480 text-center text-xl-start'>Best pets are waiting for adoption. Find out the the perfect one you will like it. It’s our promise.</p>
               <div className=' d-flex mt-5 flex-column flex-sm-row align-items-center'>
