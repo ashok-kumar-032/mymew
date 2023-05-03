@@ -39,7 +39,7 @@ export const DaCode = () => {
                                             <p className=' ff_Poppins fw_600 fs_20 clr_black mb-0'>Why Your SaaS Business should use WordPress</p>
                                             <p className=' ff_Poppins pt-3 fw_400 fs_16 clr_grey'>A content management system like WordPress can help you build a highly engaging website for your SaaS business, with little to no effort</p>
                                             <div className=' d-flex'>
-                                                <span onClick={() => first.current.slickprev()} className=' pointer arrow_btn d-flex justify-content-center align-items-center'><svg width="30" height="30" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <span onClick={() => first.current.slickPrev()} className=' pointer arrow_btn d-flex justify-content-center align-items-center'><svg width="30" height="30" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M12.9467 7.88379L2.82078 7.88379" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                     <path d="M6.9632 12.0261L2.82075 7.88368L6.9632 3.74124" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
