@@ -426,11 +426,11 @@ input.lage_box {
 
   .clr_show:hover .colr_arrow {
     opacity: 1;
-    transform: translate(60%, 90%);
+    transform: translate(60%, 6%);
   }
 
   .arrow_clr {
-    transform: translate(-40%, 90%);
+    transform: translate(-40%, 6%);
   }
 }
 
