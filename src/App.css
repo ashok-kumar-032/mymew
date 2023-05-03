@@ -1180,8 +1180,37 @@ input.lage_box {
   border-radius: 50%;
 }
 
+.star_hero {
+  left: -90px;
+  bottom: 10px;
+}
+
+.ring {
+  right: -50%;
+  top: 40px;
+}
+
 .pointer {
   cursor: pointer;
+}
+
+@media (max-width:1200px) {
+  .star_hero {
+    left: 0;
+    bottom: -40px;
+  }
+
+  .ring {
+    right: -10%;
+    top: 190px;
+  }
+}
+@media (max-width:576px) {
+
+  .ring {
+    left: -60%;
+    top: -20px;
+  }
 }
 
 @media (min-width:992px) {
@@ -1219,11 +1248,3 @@ input.lage_box {
     transform: translate(-40%, 6%);
   }
 }
-
-
-
-
-
-
-
-
