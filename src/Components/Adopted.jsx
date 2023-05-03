@@ -8,7 +8,7 @@ export const Adopted = () => {
                 <div className=' adopt_box w-100'>
                     <Row className=' align-items-center flex-lg-row flex-column-reverse'>
                         <Col lg={8} xs={12}>
-                            <Row className='p-0 pt-3'>
+                            <Row className='p-0 pt-lg-0 pt-4'>
                                 <Col lg={4} sm={6} className='ps-sm-5 align-items-sm-start align-items-center adopt_line d-flex flex-column justify-content-center'>
                                     <p className=' ff_Poppins mb-0 fw_400 fs_18 clr_white text-start'>Adopted</p>
                                     <p className='mb-0 ff_Slackey fw_400 fs_35 clr_white text-start'>2500+</p>

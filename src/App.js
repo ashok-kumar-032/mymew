@@ -12,6 +12,7 @@ import { Adopted } from './Components/Adopted';
 import { Ourservice } from './Components/Ourservice';
 import Loading from './Components/Loading';
 import Footer from './Components/Footer';
+import { DaCode } from './Components/DaCode';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Dog />
       <Groomers />
       <Footer />
+      <DaCode />
     </div>
   );
 }
