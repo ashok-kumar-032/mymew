@@ -19,38 +19,38 @@ export const Ourservice = () => {
                 </div>
                 <Row className='py-5'>
                     <Col xl={3} sm={6} xs={12} className='px-3'>
-                        <div className='pet_box slow_animation px-4 py-5 d-flex flex-column align-items-center' data-aos="flip-left" data-aos-duration="1000">
+                        <div className='pet_box slow_animation services px-4 py-5 d-flex flex-column align-items-center' data-aos="flip-left" data-aos-duration="1000">
                             <div className='pet_img_box slow_animation d-flex justify-content-center align-items-center'>
                                 <span><img src={injection} /></span>
                             </div>
-                            <p className=' mb-0 slow_animation hover_white pt-4 text-decoration-underline fw_400 fs_20 ff_Slackey clr_grey'>Vaccination</p>
+                            <p className=' mb-0 slow_animation position-relative service_line hover_white pt-4  fw_400 fs_20 ff_Slackey clr_grey'>Vaccination</p>
                             <p className=' ff_Poppins slow_animation hover_white px-2 pt-3 mb-0 fw_400 fs_14 clr_grey text-center'>Perfect one you will like it. It’s our promise.</p>
                         </div>
                     </Col>
                     <Col xl={3} sm={6} xs={12} className='px-3 pt-5'>
-                        <div className='pet_box_2 slow_animation px-4 py-5 d-flex flex-column align-items-center' data-aos="flip-right" data-aos-duration="1000">
+                        <div className='pet_box_2 slow_animation services px-4 py-5 d-flex flex-column align-items-center' data-aos="flip-right" data-aos-duration="1000">
                             <div className='pet_img_box_2 slow_animation  d-flex justify-content-center align-items-center'>
                                 <span><img src={cat} /></span>
                             </div>
-                            <p className=' slow_animation text-decoration-underline mb-0 hover_white pt-4 text-nowrap fw_400 fs_20 ff_Slackey clr_grey'>Pet Grooming</p>
+                            <p className=' slow_animation position-relative service_line mb-0 hover_white pt-4 text-nowrap fw_400 fs_20 ff_Slackey clr_grey'>Pet Grooming</p>
                             <p className=' slow_animation ff_Poppins px-2 hover_white pt-3 mb-0 fw_400 fs_14 clr_grey text-center'>Perfect one you will like it. It’s our promise.</p>
                         </div>
                     </Col>
                     <Col xl={3} sm={6} xs={12} className='px-3 pt-5 pt-sm-0'>
-                        <div className='pet_box_3 slow_animation px-4 py-5 d-flex flex-column align-items-center' data-aos="flip-left" data-aos-duration="1000">
+                        <div className='pet_box_3 slow_animation px-4 services py-5 d-flex flex-column align-items-center' data-aos="flip-left" data-aos-duration="1000">
                             <div className='pet_img_box_3 slow_animation  d-flex justify-content-center align-items-center'>
                                 <span><img src={doctor} /></span>
                             </div>
-                            <p className='slow_animation text-decoration-underline mb-0 hover_white pt-4 text-nowrap fw_400 fs_20 ff_Slackey clr_grey'>Veterinary</p>
+                            <p className='slow_animation position-relative service_line mb-0 hover_white pt-4 text-nowrap fw_400 fs_20 ff_Slackey clr_grey'>Veterinary</p>
                             <p className='slow_animation ff_Poppins px-2 hover_white pt-3 mb-0 fw_400 fs_14 clr_grey text-center'>Perfect one you will like it. It’s our promise.</p>
                         </div>
                     </Col>
                     <Col xl={3} sm={6} xs={12} className='px-3 pt-5'>
-                        <div className='pet_box_4 slow_animation px-4 py-5 d-flex flex-column align-items-center' data-aos="flip-right" data-aos-duration="1000">
+                        <div className='pet_box_4 slow_animation px-4 services py-5 d-flex flex-column align-items-center' data-aos="flip-right" data-aos-duration="1000">
                             <div className='pet_img_box_4 slow_animation  d-flex justify-content-center align-items-center'>
                                 <span><img src={hand} /></span>
                             </div>
-                            <p className=' slow_animation text-decoration-underline mb-0 hover_white pt-4 text-nowrap fw_400 fs_20 ff_Slackey clr_grey'>Cleaning</p>
+                            <p className=' slow_animation position-relative service_line mb-0 hover_white pt-4 text-nowrap fw_400 fs_20 ff_Slackey clr_grey'>Cleaning</p>
                             <p className=' slow_animation ff_Poppins px-2 hover_white pt-3 mb-0 fw_400 fs_14 clr_grey text-center'>Perfect one you will like it. It’s our promise.</p>
                         </div>
                     </Col>

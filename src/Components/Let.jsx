@@ -5,6 +5,7 @@ import let_2 from '../assets/let_2.png'
 import plus from '../assets/green_plus.png'
 import plus_red from '../assets/red_plus.png'
 import orange_line from '../assets/orange_line.png'
+import dott from '../assets/dott.png'
 
 const Let = () => {
     return (
@@ -33,6 +34,7 @@ const Let = () => {
                         <img src={plus} className='green_plus position-absolute grow_up' />
                         <img src={plus_red} className='plus_red position-absolute rotate_animation' />
                         <img src={orange_line} className='orange_line position-absolute move_animation' />
+                        <img src={dott} className='dott position-absolute move_animation' />
                     </Col>
                 </Row>
             </Container>
