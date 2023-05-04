@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Container, Nav, Row, Col } from 'react-bootstrap'
 import { BiMenu } from 'react-icons/bi';
 import hero from '../assets/hero.png'
+import hero_2 from '../assets/hero_2.png'
 import img_1 from '../assets/img_1.png'
 import img_2 from '../assets/img_2.png'
 import img_3 from '../assets/img_3.png'
@@ -54,7 +55,8 @@ const Mynav = () => {
         <Container className='pb-sm-5'>
           <Row>
             <Col xl={5}>
-              <img className='W_min position-absolute start-0' src={hero} />
+              <img className='W_min position-absolute start-0 position-relative' src={hero} />
+              <img className='W_min position-absolute start-0 w-25' src={hero_2} />
               <img src={dog_foot} className=' position-absolute nav_foot grow_up' />
             </Col>
             <Col xl={7} className='px-lg-5 mt_max p-sm-4 position-relative d-flex flex-column align-items-center align-items-xl-start' data-aos="fade-down" data-aos-duration="2000">
