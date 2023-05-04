@@ -5,7 +5,7 @@ import let_2 from '../assets/let_2.png'
 import plus from '../assets/green_plus.png'
 import plus_red from '../assets/red_plus.png'
 import orange_line from '../assets/orange_line.png'
-
+              
 const Let = () => {
     return (
         <section className='bg_section_1 py-5'>
