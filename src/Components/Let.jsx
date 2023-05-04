@@ -28,9 +28,16 @@ const Let = () => {
                             <p className='w_500 fs_18 ff_Poppins clr_dark_blue Call ms-sm-5 mt-2'><span><img src={coll} /></span> Emergency Call</p>
                         </div>
                     </Col>
-                    <Col lg={6} className='mt-4 mt-sm-0' data-aos="fade-up-left" data-aos-duration="1000">
+                    {/* <Col lg={6} className='mt-4 mt-sm-0' data-aos="fade-up-left" data-aos-duration="1000">
                         <img className=' w-100' src={let_2} alt="let_2" />
-                    </Col></Row >
+                    </Col> */}
+                    <Col lg={6} className='mt-4 mt-sm-0 position-relative' data-aos="fade-up-left" data-aos-duration="1000">
+                        <img className=' w-100' src={let_2} />
+                        <img src={plus} className='green_plus position-absolute grow_up' />
+                        <img src={plus_red} className='plus_red position-absolute rotate_animation' />
+                        <img src={orange_line} className='orange_line position-absolute move_animation' />
+                    </Col>
+                </Row>
             </Container >
         </section >
     )
