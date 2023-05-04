@@ -63,10 +63,6 @@
 }
 
 /* nav */
-.hero_2{
-  bottom: 0;
-  right: 0;
-}
 .nav_btn:hover {
   color: #FFFFFF !important;
   background: #FF5B2E;
@@ -1350,7 +1346,7 @@ input.lage_box {
 }
 
 .nav_foot {
-  bottom: 69px;
+  bottom: 0px;
   left: 162px;
 }
 
