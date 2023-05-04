@@ -5,17 +5,13 @@ import let_2 from '../assets/let_2.png'
 import plus from '../assets/green_plus.png'
 import plus_red from '../assets/red_plus.png'
 import orange_line from '../assets/orange_line.png'
-              
+
 const Let = () => {
     return (
         <section className='bg_section_1 py-5'>
-            <Container className=' pb-lg-5'>
-                <Row className='pb-5'>
-<<<<<<< HEAD
-                    <Col lg={6} className='mt-5' data-aos="fade-down-right" data-aos-duration="2000">
-=======
-                    <Col lg={6} className='mt-5'>
->>>>>>> c794ab23dd867f252fb4ce8324f7273a26aa9183
+            <Container>
+                <Row>
+                    <Col lg={6} className='mt-5' data-aos="fade-up-right" data-aos-duration="1000">
                         <p className='fw_400 fs_45 ff_Slackey clr_dark_blue text-center text-lg-start'>Lets book a call and stay connected </p>
                         <div className=' d-flex mt-4 flex-column flex-sm-row align-items-center'>
                             <div className=' d-flex align-items-center'>
@@ -32,19 +28,11 @@ const Let = () => {
                             <p className='w_500 fs_18 ff_Poppins clr_dark_blue Call ms-sm-5 mt-2'><span><img src={coll} /></span> Emergency Call</p>
                         </div>
                     </Col>
-<<<<<<< HEAD
-                    <Col lg={6} className='mt-4 mt-sm-0 position-relative' data-aos="fade-up-left" data-aos-duration="2000">
-=======
-                    <Col lg={6} className='mt-4 mt-sm-0 position-relative'>
->>>>>>> c794ab23dd867f252fb4ce8324f7273a26aa9183
-                        <img className=' w-100' src={let_2} />
-                        <img src={plus} className='green_plus position-absolute grow_up' />
-                        <img src={plus_red} className='plus_red position-absolute rotate_animation' />
-                        <img src={orange_line} className='orange_line position-absolute move_animation' />
-                    </Col>
-                </Row>
-            </Container>
-        </section>
+                    <Col lg={6} className='mt-4 mt-sm-0' data-aos="fade-up-left" data-aos-duration="1000">
+                        <img className=' w-100' src={let_2} alt="let_2" />
+                    </Col></Row >
+            </Container >
+        </section >
     )
 }
 
