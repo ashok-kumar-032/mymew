@@ -31,7 +31,7 @@ export const Adopted = () => {
                                         <hr className=' box_2_line mt-4' />
                                         <p className=' ff_Slackey pt-2 clr_white fw_400 fs_18'>Daniel Kahneman</p>
                                     </div>
-                                    <span className='pt-2'><img className=' w-100' src={image} alt="" /></span>
+                                    <span className='pt-2'><img className=' w-100' src={image} /></span>
                                 </div>
                             </div>
                         </Col>

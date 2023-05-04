@@ -12,7 +12,7 @@ export const Ourservice = () => {
             <Container className=' d-flex flex-column align-items-center'>
                 <div className=' d-flex flex-column align-items-center ' data-aos="zoom-in-up" data-aos-duration="1000">
                     <div className=' d-flex align-items-center justify-content-center'>
-                        <span><img className=' grow_up' src={foot} alt="" /></span>
+                        <span><img className=' grow_up' src={foot} /></span>
                         <p className=' ff_Slackey fw_400 fs_45 clr_dark_blue mb-0 ps-4'>Our Services</p>
                     </div>
                     <p className=' ff_Poppins fw_400 fs_16 clr_grey mx_473 text-center'>Best pets are waiting for adoption. Find out the the perfect one you will like it. It’s our promise.</p>
@@ -21,7 +21,7 @@ export const Ourservice = () => {
                     <Col xl={3} sm={6} xs={12} className='px-3'>
                         <div className='pet_box slow_animation px-4 py-5 d-flex flex-column align-items-center' data-aos="flip-left" data-aos-duration="1000">
                             <div className='pet_img_box slow_animation d-flex justify-content-center align-items-center'>
-                                <span><img src={injection} alt="" /></span>
+                                <span><img src={injection} /></span>
                             </div>
                             <p className=' mb-0 slow_animation hover_white pt-4 text-decoration-underline fw_400 fs_20 ff_Slackey clr_grey'>Vaccination</p>
                             <p className=' ff_Poppins slow_animation hover_white px-2 pt-3 mb-0 fw_400 fs_14 clr_grey text-center'>Perfect one you will like it. It’s our promise.</p>
@@ -30,7 +30,7 @@ export const Ourservice = () => {
                     <Col xl={3} sm={6} xs={12} className='px-3 pt-5'>
                         <div className='pet_box_2 slow_animation px-4 py-5 d-flex flex-column align-items-center' data-aos="flip-right" data-aos-duration="1000">
                             <div className='pet_img_box_2 slow_animation  d-flex justify-content-center align-items-center'>
-                                <span><img src={cat} alt="" /></span>
+                                <span><img src={cat} /></span>
                             </div>
                             <p className=' slow_animation text-decoration-underline mb-0 hover_white pt-4 text-nowrap fw_400 fs_20 ff_Slackey clr_grey'>Pet Grooming</p>
                             <p className=' slow_animation ff_Poppins px-2 hover_white pt-3 mb-0 fw_400 fs_14 clr_grey text-center'>Perfect one you will like it. It’s our promise.</p>
@@ -39,7 +39,7 @@ export const Ourservice = () => {
                     <Col xl={3} sm={6} xs={12} className='px-3 pt-5 pt-sm-0'>
                         <div className='pet_box_3 slow_animation px-4 py-5 d-flex flex-column align-items-center' data-aos="flip-left" data-aos-duration="1000">
                             <div className='pet_img_box_3 slow_animation  d-flex justify-content-center align-items-center'>
-                                <span><img src={doctor} alt="" /></span>
+                                <span><img src={doctor} /></span>
                             </div>
                             <p className='slow_animation text-decoration-underline mb-0 hover_white pt-4 text-nowrap fw_400 fs_20 ff_Slackey clr_grey'>Veterinary</p>
                             <p className='slow_animation ff_Poppins px-2 hover_white pt-3 mb-0 fw_400 fs_14 clr_grey text-center'>Perfect one you will like it. It’s our promise.</p>
@@ -48,7 +48,7 @@ export const Ourservice = () => {
                     <Col xl={3} sm={6} xs={12} className='px-3 pt-5'>
                         <div className='pet_box_4 slow_animation px-4 py-5 d-flex flex-column align-items-center' data-aos="flip-right" data-aos-duration="1000">
                             <div className='pet_img_box_4 slow_animation  d-flex justify-content-center align-items-center'>
-                                <span><img src={hand} alt="" /></span>
+                                <span><img src={hand} /></span>
                             </div>
                             <p className=' slow_animation text-decoration-underline mb-0 hover_white pt-4 text-nowrap fw_400 fs_20 ff_Slackey clr_grey'>Cleaning</p>
                             <p className=' slow_animation ff_Poppins px-2 hover_white pt-3 mb-0 fw_400 fs_14 clr_grey text-center'>Perfect one you will like it. It’s our promise.</p>
@@ -57,8 +57,8 @@ export const Ourservice = () => {
                 </Row>
                 <div className='ps-md-5 ms-md-5 clr_show align-items-center d-flex justify-content-center'>
                     <a href="#" className='learn_butn effect ff_Poppins fw_600 fs_16 clr_white text-center effect_1'>Learn More</a>
-                    <span><img src={arrow} className='colr_arrow effect_arrow d-none d-sm-block' alt="" /></span>
-                    <span><img src={arrow} className='arrow_clr d-none d-sm-block' alt="" /></span>
+                    <span><img src={arrow} className='colr_arrow effect_arrow d-none d-sm-block' /></span>
+                    <span><img src={arrow} className='arrow_clr d-none d-sm-block' /></span>
                 </div>
 
             </Container>

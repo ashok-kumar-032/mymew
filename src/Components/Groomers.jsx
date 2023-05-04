@@ -50,12 +50,12 @@ export const Groomers = () => {
   return (
     <section className='bg_section py-5 position-relative'>
       <span>
-        <img className=' position-absolute groo_1 zig_position grow_up' src={groo_1} alt="" />
-        <img className=' position-absolute groo_2 rotate_animation' src={groo_2} alt="" />
+        <img className=' position-absolute groo_1 zig_position grow_up' src={groo_1} />
+        <img className=' position-absolute groo_2 rotate_animation' src={groo_2} />
       </span>
       <Container className='py-4'>
         <div className=' d-flex align-items-center justify-content-center'>
-          <p className='fw_400 fs_45 ff_Slackey clr_dark_blue text-center'>Our Groomers</p>
+          <p className='fw_400 fs_45 ff_Slackey clr_dark_blue text-center z_3'>Our Groomers</p>
         </div>
         <Slider {...settings} className='mt-4'>
           {/* 1 */}
