@@ -6,7 +6,7 @@ const Footer = () => {
         <section className='bg_section py-5'>
             <Container>
                 <Row>
-                    <Col lg={5}>
+                    <Col lg={5} data-aos="fade-down-right" data-aos-duration="2000">
                         <a className='clr_black fw_400 fs_27 ff_Slackey ms-2 z-10 navlogo effect_1' href="#">Mew</a>
                         <p className='fw_400 fs_14 ff_Poppins clr_grey pt-4 max_w_440'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  velit esse cillum dolore eu fugiat nulla pariatur.</p>
                         <div className='mt-5 ps-0 d-flex'>
@@ -50,7 +50,7 @@ const Footer = () => {
                     </Col>
                     <Col lg={7}>
                         <Row>
-                            <Col md={4} sm={6} xs={12}>
+                            <Col md={4} sm={6} xs={12} data-aos="fade-up" data-aos-duration="2000">
                                 <ul className='mt-4 ps-0'>
                                     <li><p className='fw_400 fs_18 ff_Slackey clr_dark_blue'>Useful links</p></li>
                                     <li className='pt-3'><a className='fw_400 fs_14 ff_Poppins clr_grey home effect' href="#">FAQs</a></li>
@@ -60,7 +60,7 @@ const Footer = () => {
                                     <li className='pt-3'><a className='fw_400 fs_14 ff_Poppins clr_grey home effect' href="#">Site Map</a></li>
                                 </ul>
                             </Col>
-                            <Col md={4} sm={6} xs={12}>
+                            <Col md={4} sm={6} xs={12} data-aos="fade-down" data-aos-duration="2000">
                                 <ul className='mt-4 ps-0'>
                                     <li><p className='fw_400 fs_18 ff_Slackey clr_dark_blue'>Explore</p></li>
                                     <li className='pt-3'><a className='fw_400 fs_14 ff_Poppins clr_grey home effect' href="#">About Us</a></li>
@@ -69,7 +69,7 @@ const Footer = () => {
                                     <li className='pt-3'><a className='fw_400 fs_14 ff_Poppins clr_grey home effect' href="#">Adopt Pet</a></li>
                                 </ul>
                             </Col>
-                            <Col md={4} sm={6} xs={12}>
+                            <Col md={4} sm={6} xs={12} data-aos="fade-up-left" data-aos-duration="2000">
                                 <ul className='mt-4 ps-0'>
                                     <li><p className='fw_400 fs_18 ff_Slackey clr_dark_blue'>Contact Info</p></li>
                                     <li className='pt-3'><a className='fw_400 fs_14 ff_Poppins clr_grey home effect' href="#">361-777-5681</a></li>

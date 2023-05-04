@@ -29,8 +29,8 @@ const Mynav = () => {
       <Nav className='py-4'>
         <Container>
           <div className='d-flex justify-content-between align-items-center'>
-            <div className='d-flex align-items-center'>
-              <a className='clr_black fw_400 fs_27 ff_Slackey ms-2 z-10 navlogo effect_1' href="#">Mew</a>
+            <div className='d-flex align-items-center '>
+              <a className='clr_black fw_400 fs_27 ff_Slackey ms-2 z-10 navlogo effect_1 ' href="#">Mew</a>
             </div>
             <ul className={first ? 'nav_show d-flex gap-4 align-items-center 0' : 'nav_show d-flex showw gap-4 mb-0 align-items-center ps-0'} >
               <li><a className='fw_400 fs_16 ff_Poppins clr_nav mb-0 ms-xl-4 home position-relative hover_line effect' href="#">Home</a>
@@ -43,7 +43,7 @@ const Mynav = () => {
               </li>
               <li><a className='fw_600 fs_16 ff_Poppins clr_dark_blue nav_btn d-block d-lg-none' href="#">Sign up</a></li>
             </ul>
-            <a className='fw_600 fs_16 d-none d-xl-block ff_Poppins clr_dark_blue nav_btn' href="#">Sign up</a>
+            <a className='fw_600 fs_16 d-none d-xl-block ff_Poppins clr_dark_blue nav_btn effect_1' href="#">Sign up</a>
             <div className='z-10 d-xl-none'>
               <h3 className='clr_orange' onClick={clickshow}><BiMenu /></h3>
             </div>
@@ -55,12 +55,12 @@ const Mynav = () => {
           <Row>
             <Col xl={5}>
               <img className='W_min position-absolute start-0' src={hero} />
-              <img src={dog_foot} className=' position-absolute nav_foot grow_up'/>
+              <img src={dog_foot} className=' position-absolute nav_foot grow_up' />
             </Col>
-            <Col xl={7} className='px-lg-5 mt_max p-sm-4 position-relative d-flex flex-column align-items-center align-items-xl-start'>
+            <Col xl={7} className='px-lg-5 mt_max p-sm-4 position-relative d-flex flex-column align-items-center align-items-xl-start' data-aos="fade-down" data-aos-duration="2000">
               {/* star img */}
 
-              <p className='fw_400 fs_55 ff_Slackey clr_dark_blue position-relative text-center text-xl-start'>We take care of your pet and help them to grow <span><img className='grow_up' src={emogy}/><img src={star} className='rotate_animation position-absolute star_hero' />
+              <p className='fw_400 fs_55 ff_Slackey clr_dark_blue position-relative text-center text-xl-start '>We take care of your pet and help them to grow <span><img className='grow_up' src={emogy} /><img src={star} className='rotate_animation position-absolute star_hero' />
               </span></p>
               <p className='fw_500 fs_16 ff_Poppins clr_grey pt-3 max_w_480 text-center text-xl-start'>Best pets are waiting for adoption. Find out the the perfect one you will like it. It’s our promise.</p>
               <div className=' d-flex position-relative mt-4 pt-2 flex-column flex-sm-row align-items-center'>

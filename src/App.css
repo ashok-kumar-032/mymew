@@ -41,10 +41,6 @@
   height: 150px;
 }
 
-/* .slick-active {
-  display: flex !important;
-} */
-/* top */
 .top {
   -webkit-animation: star 2.8s linear infinite;
   z-index: 20;
@@ -67,6 +63,13 @@
 }
 
 /* nav */
+.nav_btn:hover {
+  color: #FFFFFF !important;
+  background: #FF5B2E;
+  box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
+  border: 2px solid #FF5B2E;
+}
+
 .nav_btn {
   border: 2px solid #000958;
   border-radius: 5px;
