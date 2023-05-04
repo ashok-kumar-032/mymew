@@ -9,9 +9,15 @@ import orange_line from '../assets/orange_line.png'
 const Let = () => {
     return (
         <section className='bg_section_1 py-5'>
+<<<<<<< HEAD
             <Container className=' pb-lg-5'>
                 <Row className='pb-5'>
                         <Col lg={6} className='mt-5'>
+=======
+            <Container>
+                <Row>
+                    <Col lg={6} className='mt-5' data-aos="fade-up-right" data-aos-duration="1000">
+>>>>>>> 20dfea54ee1657491f4ab44c08231782cce0fb60
                         <p className='fw_400 fs_45 ff_Slackey clr_dark_blue text-center text-lg-start'>Lets book a call and stay connected </p>
                         <div className=' d-flex mt-4 flex-column flex-sm-row align-items-center'>
                             <div className=' d-flex align-items-center'>
@@ -28,6 +34,7 @@ const Let = () => {
                             <p className='w_500 fs_18 ff_Poppins clr_dark_blue Call ms-sm-5 mt-2'><span><img src={coll} /></span> Emergency Call</p>
                         </div>
                     </Col>
+<<<<<<< HEAD
                     <Col lg={6} className='mt-4 mt-sm-0 position-relative'>
                         <img className=' w-100' src={let_2} />
                         <img src={plus} className='green_plus position-absolute grow_up' />
@@ -37,6 +44,13 @@ const Let = () => {
                 </Row>
             </Container>
         </section>
+=======
+                    <Col lg={6} className='mt-4 mt-sm-0' data-aos="fade-up-left" data-aos-duration="1000">
+                        <img className=' w-100' src={let_2} alt="let_2" />
+                    </Col></Row >
+            </Container >
+        </section >
+>>>>>>> 20dfea54ee1657491f4ab44c08231782cce0fb60
     )
 }
 
