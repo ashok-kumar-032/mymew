@@ -10,6 +10,7 @@ import img_5 from '../assets/img_5.png'
 import dog_l from '../assets/dog_l.png'
 import emogy from '../assets/😍.png'
 import star from '../assets/nav_star.png'
+import dog_foot from '../assets/dog_foot.png'
 import ring from '../assets/circle_ring.png'
 const Mynav = () => {
   const [first, setfirst] = useState(true)
@@ -53,26 +54,27 @@ const Mynav = () => {
         <Container className='pb-sm-5'>
           <Row>
             <Col xl={5}>
-              <img className='W_min position-absolute start-0' src={hero}/>
+              <img className='W_min position-absolute start-0' src={hero} />
+              <img src={dog_foot} className=' position-absolute nav_foot grow_up'/>
             </Col>
             <Col xl={7} className='px-lg-5 mt_max p-sm-4 position-relative d-flex flex-column align-items-center align-items-xl-start'>
               {/* star img */}
 
-              <p className='fw_400 fs_55 ff_Slackey clr_dark_blue position-relative text-center text-xl-start'>We take care of your pet and help them to grow <span><img className='grow_up' src={emogy} alt="" /><img src={star} className='rotate_animation position-absolute star_hero' />
+              <p className='fw_400 fs_55 ff_Slackey clr_dark_blue position-relative text-center text-xl-start'>We take care of your pet and help them to grow <span><img className='grow_up' src={emogy}/><img src={star} className='rotate_animation position-absolute star_hero' />
               </span></p>
               <p className='fw_500 fs_16 ff_Poppins clr_grey pt-4 max_w_480 text-center text-xl-start'>Best pets are waiting for adoption. Find out the the perfect one you will like it. It’s our promise.</p>
               <div className=' d-flex position-relative mt-5 flex-column flex-sm-row align-items-center'>
                 <a className='fw_600 fs_16 ff_Poppins clr_white bg_orange effect_1 Contact_btn d-inline-block' href="#">Contact us</a>
-                <span> <img className='ms-sm-5 ps-sm-3 mt-4 mt-sm-0 z_1 img_0' src={img_1} alt="" />
-                  <img className=' mt-4 mt-sm-0 img_2 img_0' src={img_2} alt="" />
-                  <img className=' mt-4 mt-sm-0 img_3 img_0' src={img_3} alt="" />
-                  <img className=' mt-4 mt-sm-0 img_4 img_0' src={img_4} alt="" />
-                  <img className=' mt-4 mt-sm-0 img_5 img_0' src={img_5} alt="" /></span>
+                <span> <img className='ms-sm-5 ps-sm-3 mt-4 mt-sm-0 z_1 img_0' src={img_1} />
+                  <img className=' mt-4 mt-sm-0 img_2 img_0' src={img_2} />
+                  <img className=' mt-4 mt-sm-0 img_3 img_0' src={img_3} />
+                  <img className=' mt-4 mt-sm-0 img_4 img_0' src={img_4} />
+                  <img className=' mt-4 mt-sm-0 img_5 img_0' src={img_5} /></span>
                 {/* ring */}
                 <img src={ring} className='rotate_animation position-absolute ring' />
               </div>
               <div className=' d-flex align-items-start mt-5'>
-                <img className='ms-0' src={dog_l} alt="" />
+                <img className='ms-0' src={dog_l} />
                 <span className='pt-2'>
                   <p className='fw_400 fs_20 ff_Slackey clr_grey mb-0'>How to take care </p>
                   <p className='fw_400 fs_18 ff_Poppins clr_grey mt-1'> perfect one you will like it. It’s our promise.</p>

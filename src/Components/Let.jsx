@@ -25,7 +25,7 @@ const Let = () => {
                         <p className='mt-4 pt-3 fw_400 fs_16 ff_Poppins clr_grey text-center text-lg-start'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  velit esse cillum dolore eu fugiat nulla pariatur.</p>
                         <div className='mt-5 d-flex flex-column flex-sm-row align-items-center align-items-sm-start'>
                             <a className='Book_btn effect w_600 fs_16 ff_Poppins clr_white ms-2 ms-sm-0 effect_1' href="#">Book a Schedule</a>
-                            <p className='w_500 fs_18 ff_Poppins clr_dark_blue Call ms-sm-5 mt-2'><span><img src={coll} alt="" /></span> Emergency Call</p>
+                            <p className='w_500 fs_18 ff_Poppins clr_dark_blue Call ms-sm-5 mt-2'><span><img src={coll} /></span> Emergency Call</p>
                         </div>
                     </Col>
                     <Col lg={6} className='mt-4 mt-sm-0 position-relative'>

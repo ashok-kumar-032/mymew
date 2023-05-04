@@ -1284,35 +1284,49 @@ input.lage_box {
   left: 46px;
   bottom: 23px;
 }
-.z_3{
+
+.z_3 {
   z-index: 3;
 }
+
 .orange_line {
   bottom: -64px;
   right: 130px;
 }
-.move_animation{
+
+.nav_foot {
+  bottom: 69px;
+  left: 162px;
+}
+
+.move_animation {
   animation: move 3.8s linear infinite;
 }
+
 @keyframes move {
-  0%{
-    transform: translateX(0%);
-  }
-  25%{
-    transform: translateX(-10%);
-  }
-  50%{
-    transform: translateX(0%);
-  }
-  75%{
-    transform: translateX(10%);
-  }
-  100%{
+  0% {
     transform: translateX(0%);
   }
 
-  
+  25% {
+    transform: translateX(-10%);
+  }
+
+  50% {
+    transform: translateX(0%);
+  }
+
+  75% {
+    transform: translateX(10%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+
+
 }
+
 @media (max-width:1200px) {
   .star_hero {
     left: 0;
