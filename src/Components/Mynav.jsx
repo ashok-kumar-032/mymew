@@ -56,7 +56,7 @@ const Mynav = () => {
           <Row>
             <Col xl={5}>
               <img className='W_min position-absolute start-0 position-relative' src={hero} />
-              <img className='W_min position-absolute start-0 w-25' src={hero_2} />
+              <img className='W_min position-absolute start-0 w-25 hero_2' src={hero_2} />
               <img src={dog_foot} className=' position-absolute nav_foot grow_up' />
             </Col>
             <Col xl={7} className='px-lg-5 mt_max p-sm-4 position-relative d-flex flex-column align-items-center align-items-xl-start' data-aos="fade-down" data-aos-duration="2000">
