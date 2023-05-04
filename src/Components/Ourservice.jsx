@@ -10,7 +10,7 @@ export const Ourservice = () => {
     return (
         <div className=' bg_section pt-5 pb-5'>
             <Container className=' d-flex flex-column align-items-center'>
-                <div className=' d-flex flex-column align-items-center ' data-aos="zoom-in-up" data-aos-duration="1000">
+                <div className=' d-flex flex-column align-items-center ' data-aos="zoom-in-up" data-aos-duration="2000">
                     <div className=' d-flex align-items-center justify-content-center'>
                         <span><img className=' grow_up' src={foot} /></span>
                         <p className=' ff_Slackey fw_400 fs_45 clr_dark_blue mb-0 ps-4'>Our Services</p>

@@ -18,7 +18,7 @@ export const DaCode = () => {
         <div className='py-5 bg_section_1'>
             <Container className='py-lg-5'>
                 <Row>
-                    <Col xl={6} xs={12}>
+                    <Col xl={6} xs={12} data-aos="fade-right" data-aos-duration="2000">
                         <div className=' d-flex flex-column align-items-center align-items-xl-start'>
                             <p className=' ff_Slackey fw_400 fs_45 clr_black mb-0'>DaCode Blog</p>
                             <p className=' ff_Poppins pt-4 fw_400 mx_363 fs_16 clr_grey mb-0'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -26,7 +26,7 @@ export const DaCode = () => {
 
                         </div>
                     </Col>
-                    <Col xl={6} xs={12} className='p-0 mt-4 mt-xl-0'>
+                    <Col xl={6} xs={12} className='p-0 mt-4 mt-xl-0' data-aos="fade-left" data-aos-duration="2000">
                         <div className=' dog_box p-4'>
 
                             <Slider {...dogslick} ref={first}>
