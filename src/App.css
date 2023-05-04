@@ -1284,7 +1284,9 @@ input.lage_box {
   left: 46px;
   bottom: 23px;
 }
-
+.z_3{
+  z-index: 3;
+}
 .orange_line {
   bottom: -64px;
   right: 130px;

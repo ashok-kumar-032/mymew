@@ -55,7 +55,7 @@ export const Groomers = () => {
       </span>
       <Container className='py-4'>
         <div className=' d-flex align-items-center justify-content-center'>
-          <p className='fw_400 fs_45 ff_Slackey clr_dark_blue text-center'>Our Groomers</p>
+          <p className='fw_400 fs_45 ff_Slackey clr_dark_blue text-center z_3'>Our Groomers</p>
         </div>
         <Slider {...settings} className='mt-4'>
           {/* 1 */}
