@@ -13,9 +13,14 @@ import { Ourservice } from './Components/Ourservice';
 import Loading from './Components/Loading';
 import Footer from './Components/Footer';
 import { DaCode } from './Components/DaCode';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <div className="App">
       <Loading />

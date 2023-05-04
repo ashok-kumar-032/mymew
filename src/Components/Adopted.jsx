@@ -8,7 +8,7 @@ export const Adopted = () => {
                 <div className=' adopt_box w-100'>
                     <Row className=' align-items-center flex-lg-row flex-column-reverse'>
                         <Col lg={8} xs={12}>
-                            <Row className='p-0 pt-lg-0 pt-4'>
+                            <Row className='p-0 pt-lg-0 pb-5'>
                                 <Col lg={4} sm={6} className='ps-sm-5 align-items-sm-start align-items-center adopt_line d-flex flex-column justify-content-center'>
                                     <p className=' ff_Poppins mb-0 fw_400 fs_18 clr_white text-start'>Adopted</p>
                                     <p className='mb-0 ff_Slackey fw_400 fs_35 clr_white text-start'>2500+</p>
@@ -24,12 +24,12 @@ export const Adopted = () => {
                             </Row>
                         </Col>
                         <Col lg={4} xs={12} className='p-0 d-flex align-items-center'>
-                            <div className=' adopt_box_2 w-100 pt-4 pb-4 px-3 ff_Poppins fw_400 fs_16 clr_white'>
-                                <p className=' mb-0 pt-1'>Lorem ipsum dolor sit amet, consectetur ipcing elit, sed do eiusmod tempor incididu ut labore et quis nostrud sed do eius .....</p>
+                            <div className=' adopt_box_2 w-100 pt-4 pb-4 px-4 ff_Poppins fw_400 fs_16 clr_white header_card'>
+                                <p className=' mb-0 pt-4'>Lorem ipsum dolor sit amet, consectetur ipcing elit, sed do eiusmod tempor incididu ut labore et quis nostrud sed do eius .....</p>
                                 <div className=' d-flex justify-content-between'>
                                     <div>
-                                        <hr className=' box_2_line' />
-                                        <p className=' ff_Slackey clr_white fw_400 fs_18'>Daniel Kahneman</p>
+                                        <hr className=' box_2_line mt-4' />
+                                        <p className=' ff_Slackey pt-2 clr_white fw_400 fs_18'>Daniel Kahneman</p>
                                     </div>
                                     <span className='pt-2'><img className=' w-100' src={image} alt="" /></span>
                                 </div>

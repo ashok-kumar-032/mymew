@@ -32,13 +32,13 @@ const Mynav = () => {
               <a className='clr_black fw_400 fs_27 ff_Slackey ms-2 z-10 navlogo effect_1' href="#">Mew</a>
             </div>
             <ul className={first ? 'nav_show d-flex gap-4 align-items-center 0' : 'nav_show d-flex showw gap-4 mb-0 align-items-center ps-0'} >
-              <li><a className='fw_400 fs_16 ff_Poppins clr_nav mb-0 ms-xl-4 home effect' href="#">Home</a>
+              <li><a className='fw_400 fs_16 ff_Poppins clr_nav mb-0 ms-xl-4 home position-relative hover_line effect' href="#">Home</a>
               </li>
-              <li><a className='fw_400 fs_16 ff_Poppins clr_nav mb-0 ms-xl-4 home effect' href="#">About</a>
+              <li><a className='fw_400 fs_16 ff_Poppins clr_nav mb-0 ms-xl-4 home position-relative hover_line effect' href="#">About</a>
               </li>
-              <li><a className='fw_400 fs_16 ff_Poppins clr_nav mb-0 ms-xl-4 home effect' href="#">Services</a>
+              <li><a className='fw_400 fs_16 ff_Poppins clr_nav mb-0 ms-xl-4 home position-relative hover_line effect' href="#">Services</a>
               </li>
-              <li><a className='fw_400 fs_16 ff_Poppins clr_nav mb-0 ms-xl-4 home effect' href="#">Facilities</a>
+              <li><a className='fw_400 fs_16 ff_Poppins clr_nav mb-0 ms-xl-4 home position-relative hover_line effect' href="#">Facilities</a>
               </li>
               <li><a className='fw_600 fs_16 ff_Poppins clr_dark_blue nav_btn d-block d-lg-none' href="#">Sign up</a></li>
             </ul>
@@ -60,8 +60,8 @@ const Mynav = () => {
 
               <p className='fw_400 fs_55 ff_Slackey clr_dark_blue position-relative text-center text-xl-start'>We take care of your pet and help them to grow <span><img className='grow_up' src={emogy} alt="" /><img src={star} className='rotate_animation position-absolute star_hero' />
               </span></p>
-              <p className='fw_500 fs_16 ff_Poppins clr_grey pt-4 max_w_480 text-center text-xl-start'>Best pets are waiting for adoption. Find out the the perfect one you will like it. It’s our promise.</p>
-              <div className=' d-flex position-relative mt-5 flex-column flex-sm-row align-items-center'>
+              <p className='fw_500 fs_16 ff_Poppins clr_grey pt-3 max_w_480 text-center text-xl-start'>Best pets are waiting for adoption. Find out the the perfect one you will like it. It’s our promise.</p>
+              <div className=' d-flex position-relative mt-4 pt-2 flex-column flex-sm-row align-items-center'>
                 <a className='fw_600 fs_16 ff_Poppins clr_white bg_orange effect_1 Contact_btn d-inline-block' href="#">Contact us</a>
                 <span> <img className='ms-sm-5 ps-sm-3 mt-4 mt-sm-0 z_1 img_0' src={img_1} alt="" />
                   <img className=' mt-4 mt-sm-0 img_2 img_0' src={img_2} alt="" />

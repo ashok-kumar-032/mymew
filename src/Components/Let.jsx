@@ -8,7 +8,7 @@ const Let = () => {
         <section className='bg_section_1 py-5'>
             <Container>
                 <Row>
-                    <Col lg={6} className='mt-5'>
+                    <Col lg={6} className='mt-5' data-aos="fade-up-right" data-aos-duration="1000">
                         <p className='fw_400 fs_45 ff_Slackey clr_dark_blue text-center text-lg-start'>Lets book a call and stay connected </p>
                         <div className=' d-flex mt-4 flex-column flex-sm-row align-items-center'>
                             <div className=' d-flex align-items-center'>
@@ -25,8 +25,8 @@ const Let = () => {
                             <p className='w_500 fs_18 ff_Poppins clr_dark_blue Call ms-sm-5 mt-2'><span><img src={coll} alt="" /></span> Emergency Call</p>
                         </div>
                     </Col>
-                    <Col lg={6} className='mt-4 mt-sm-0'>
-                        <img className=' w-100' src={let_2} alt="" />
+                    <Col lg={6} className='mt-4 mt-sm-0' data-aos="fade-up-left" data-aos-duration="1000">
+                        <img className=' w-100' src={let_2} alt="let_2" />
                     </Col></Row>
             </Container>
         </section>

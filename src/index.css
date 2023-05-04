@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
 :root {
-  --fs-55: 40px;
+  --fs-55: 45px;
   --fs-45: 37px;
   --fs-35: 35px;
   --fs-27: 27px;
@@ -153,15 +153,16 @@
 }
 
 
-@media (min-width:768px) {
 
+
+@media (min-width:1330px) {
   :root {
-    --fs-55: 50px;
+    --fs-55: 55px !important;
     --fs-45: 45px;
     --fs-35: 35px;
     --fs-27: 27px;
     --fs-22: 22px;
-    --fs-20: 20px;
+    --fs-20: 18px;
     --fs-18: 18px;
     --fs-16: 16px;
     --fs-14: 14px;
@@ -182,3 +183,19 @@
     --fs-14: 14px;
   }
 }
+
+@media (min-width:768px) {
+
+  :root {
+    --fs-55: 50px;
+    --fs-45: 45px;
+    --fs-35: 35px;
+    --fs-27: 27px;
+    --fs-22: 22px;
+    --fs-20: 20px;
+    --fs-18: 18px;
+    --fs-16: 16px;
+    --fs-14: 14px;
+  }
+}
+
